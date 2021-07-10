@@ -1,10 +1,14 @@
 import './App.css';
-import { BrowserRouter, Switch, Route, Link, Redirect } from "react-router-dom";
 import { Layout } from './MainComponent';
+import { Routers } from './Routers/Routers';
+
 
 function App() {
   return (
-    <Layout />
+    <>
+      <Routers />
+
+    </>
   );
 }
 

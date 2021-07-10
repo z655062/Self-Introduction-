@@ -9,11 +9,12 @@ const LayoutComponent = (props) => {
             style={{
                 width: "100%",
                 height: `${Height}px`,
-                backgroundColor: "#ECFFFF"
+                backgroundColor: "#ECFFFF",
+                overflow: "hidden"
             }}
         >
             <Header />
-            <Body />
+            <Body height={Height} children={props.children} />
             <Footer />
         </div>
     )

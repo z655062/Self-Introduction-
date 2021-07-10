@@ -17,7 +17,7 @@ const FooterComponent = (props) => {
                 fontWeight: 600
             }}
         >
-            Copyright © 2021 [owner]. All rights reserved.
+            Copyright © 2021 AlbertLu. All rights reserved.
         </div>
     )
 }
